@@ -1,0 +1,19 @@
+#Peanut Butter Jelly Time 
+
+bread = 27 #slices of bread
+peanutbutter = 3 #spoonful of peanut butter
+jelly = 4  #spoonful of jelly
+
+sandbread = bread/2
+
+if bread > 2 and peanutbutter > 1 and jelly > 1: 
+	if sandbread > 1 and peanutbutter >= sandbread and jelly >= sandbread:
+		print "You can make {0} sandwiches! Score".format(sandbread)
+	else: 
+		print "You need more supplies!" 
+else: 
+	print "Ooops, not enough for lunch today. Not PBJ time" 
+	
+	
+
+
